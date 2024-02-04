@@ -1,0 +1,56 @@
+/* Start of site head */
+header {background-color:blue }
+/* Start of site navigation */
+nav { 
+	background-color:blue ;
+	margin-top: 10px; }
+
+nav ul {
+	margin: 0px;
+	padding:10px;}
+
+nav li{	
+	list-style: none;
+	float: left; }
+
+    nav a {
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 20px;
+	border: 1px solid black;
+	display: block;}
+
+    nav a hover:{color: red;}
+/* End of site navigation */
+/* End of site head*/
+
+/* Start of site body */
+body h1 {color: darkblue;}
+/* End of site body */ 
+
+/* Start of site footer */
+footer {background-color: blue;}
+/* Start of news ticker */
+marquee {background-color: red;
+        color:whitesmoke}
+/* End of news ticker */
+
+/* End of site footer */
+
+/* Start of Image styles */
+.MyLogo {width: 100px;
+        height: 60px;}
+/* End of Image Styles */
+/* Clear floats text */
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
+/* End of clear floats text */
